@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EFCore.Repository\EFCore.Repository.csproj" />
+    <ProjectReference Include="..\FileRepository\FileRepository.csproj" />
+    <ProjectReference Include="..\Meli.RemoteRepository\Meli.RemoteRepository.csproj" />
+    <ProjectReference Include="..\Presenter\Presenters.csproj" />
+  </ItemGroup>
+
+</Project>
